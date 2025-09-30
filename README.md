@@ -12,6 +12,8 @@ When I decided to build an apartment booking application, I knew I wanted to lev
 
 In the beginning, I approached AI tools with vague, overarching descriptions. I would prompt something like: "I want to create an apartment booking app where the admin can do this and user can do this, these are the conditions..." But I quickly realized I was leaving critical details undefined. For instance, I hadn't clearly thought through how cancellation requests would behave differently for individual bookings versus team bookings.
 
+For a more general example, imagine an online store. You might describe it simply as: "I want an e-commerce app where users can buy products and admins can manage inventory." That sounds clear at first, but without specifying details—like how returns would differ for digital products versus physical ones—the AI may make assumptions that don’t align with your real requirements.
+
 ### The Game-Changing Realization
 
 I learned that **you cannot blindly trust AI to handle undefined requirements**. The most crucial insight was that the SRS (Software Requirements Specification), requirement documents, and design documents should be created by us with minimal AI assistance. During this documentation phase, you naturally discover gaps in your understanding rather than leaving them for the AI to guess.
