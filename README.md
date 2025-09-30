@@ -53,10 +53,13 @@ However, Bolt.new's biggest drawback was its excessive token usage. The platform
 
 **Real Example**: When I had a basic syntax error - something as simple as a missing bracket - Bolt consumed over 100,000 tokens just to identify and fix it. These are errors I could have fixed myself in seconds.
 
-![Bolt.new interface showing the main development environment](https://github.com/user-attachments/assets/c33450fa-3306-4ff8-bff7-19509e55d0c7)
+![Screen Recording 2025-09-30 181207 mp4](https://github.com/user-attachments/assets/8324a126-7670-451f-83b6-8a7e28387f9a)
 
 
 Even restoring a previous version of the code consumes tokens in Bolt.new, whereas it’s free in Vercel v0.
+
+![Bolt.new interface showing the main development environment](https://github.com/user-attachments/assets/c33450fa-3306-4ff8-bff7-19509e55d0c7)
+
 
 ### My Usage Recommendation
 
