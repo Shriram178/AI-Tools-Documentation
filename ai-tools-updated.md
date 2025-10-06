@@ -65,6 +65,8 @@ Bolt.new is an AI-powered full-stack development platform that runs directly in 
 Bolt.new is **faster for creating prototypes** and excels at basic React projects, but the UI quality isn't that great. It's excellent for creating basic MVP prototypes but struggles with custom components like layout builders with drag-and-drop features.
 
 The integration capabilities are solid - when I specified endpoints with request/response structures, it handled most integration parts well.
+The issue I would say with bolt is that it wasn't able to read/develop the UI based on the mock up image that is given and with each subscription you make you only get additional tokens whereas in V0 with the pro-version we will be able to use more powerful models.
+
 
 #### Pros
 - Fast prototype creation
