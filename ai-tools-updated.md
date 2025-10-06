@@ -80,8 +80,19 @@ The integration capabilities are solid - when I specified endpoints with request
 - **Version rollback costs tokens**: Unlike V0 where going back to previous versions is free, Bolt charges tokens for rollbacks
 - **Token pricing model**: Even pro subscription may not be enough for big projects
 
+
+**Real Example**: When I had a basic syntax error - something as simple as a missing bracket - Bolt consumed over 100,000 tokens just to identify and fix it. These are errors I could have fixed myself in seconds.
+
+![Screen Recording 2025-09-30 181207 mp4](https://github.com/user-attachments/assets/8324a126-7670-451f-83b6-8a7e28387f9a)
+
+
+Even restoring a previous version of the code consumes tokens in Bolt.new, whereas it’s free in Vercel v0.
+
+![Bolt.new interface showing the main development environment](https://github.com/user-attachments/assets/c33450fa-3306-4ff8-bff7-19509e55d0c7)
+
 #### When I'd Use It
 I would use Bolt.new when I need a **React codebase with basic to medium UI** and I'm only going for an MVP, not a complete project. The pro subscription won't be sufficient for big projects due to heavy token consumption.
+
 
 ---
 
@@ -110,8 +121,9 @@ The prompt-based system is more predictable than token-based pricing. You can se
 - **No prompt size limits**: Can handle large, detailed prompts without extra cost
 - **Excellent for Next.js**: Superior performance with Next.js applications
 - **Better at custom components**: Successfully handles complex UI components
-- **Free rollbacks**: Going back to previous versions doesn't cost extra prompts
 - **Error handling**: Fixes errors without consuming additional prompts
+- **Free rollbacks**: Going back to previous versions doesn't cost extra prompts
+<img width="1911" height="917" alt="image" src="https://github.com/user-attachments/assets/8a7ed2b7-fb9d-455a-9161-e2d86eb17f08" />
 
 #### Cons
 - **Framework limitation**: Primarily designed for Next.js (though this is also a strength)
@@ -152,6 +164,8 @@ Here's my actual workflow: I create the initial frontend using V0 or Bolt.new, t
 5. Ask it to integrate new features or make modifications
 6. Request testing at the end - it writes test cases and runs them
 7. If tests fail, it reworks the solution iteratively until success
+
+![Screen Recording 2025-09-30 at 5 51 10ΓÇ»PM mov](https://github.com/user-attachments/assets/28a0f198-f661-4203-a336-e40959fb161a)
 
 **Real example**: We had an error where requests were correct and responses were correct, but when we tried to get the response again, it would say data was not found. The issue wasn't in the endpoint but in the schema where we had mistakenly set something to null. Cursor helped identify this schema-level issue that wasn't obvious from API testing.
 
